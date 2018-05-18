@@ -1,0 +1,94 @@
+html,
+body {
+    background: url('../img/bg.png') center center no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+@media (max-width:768px) {
+    #logo img {
+        width: 50%;
+    }
+    #counter .countdown {
+        font-size: 1.4em !important;
+    }
+    #icons .fab {
+        margin: 10px 0 0 !important;
+        font-size: 2em;
+    }
+}
+
+@media (min-width:321px) and (max-width:568px) {
+    #logo img {
+        width: 20%;
+    }
+}
+
+#logo img {
+    padding-top: 20px;
+    height: 20%;
+}
+
+#intro p {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Amatic SC', cursive;
+}
+
+#counter .countdown {
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 5em;
+    margin: -15px 0 0;
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons .fab {
+    color: white;
+    margin: 5px 15px;
+    position: relative;
+    bottom: 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover {
+    color: #6cadde;
+    bottom: 5px;
+}
+
+#icons .facebook:hover {
+    color: #3b5998;
+    bottom: 5px;
+}
+
+#icons .google:hover {
+    color: #ea4335;
+    bottom: 5px;
+}
+
+#icons .instagram:hover {
+    color: #517fa6;
+    bottom: 5px;
+}
+
+#signup {
+    text-align: center;
+}
+
+#signup .form-inline {
+    display: block;
+}
+
+#signup .btn {
+    background-color: rgba(161, 186, 226, 0.5);
+    color: white;
+}
+
+#signup .btn:hover {
+    background-color: rgba(37, 165, 82, 1);
+}
